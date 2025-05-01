@@ -1,0 +1,31 @@
+css
+body {
+  font-family:Ariel, sans-serif;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.register-container {
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(225, 225, 225, 0.1);
+  width: 300px;
+}
+input, button {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+button {
+  background: #ff6b81;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
