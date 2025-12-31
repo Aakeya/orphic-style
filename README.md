@@ -1,2 +1,21 @@
 # orphic-style
 A fashion guide to give you daily styling tips.....
+{
+  "name": "orphic-style-auth-demo",
+  "version": "1.0.0",
+  "description": "Simple registration demo for Orphic Style",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Aakeya",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
